@@ -20,3 +20,8 @@
 
   Added OPFOR spawn area (top part of map)
 \\ ---   Dart    --- //
+
+
+// --- 8/20/2023 --- \\
+  Start menu immediately shows up when joining
+\\ ---   Dart    --- //
