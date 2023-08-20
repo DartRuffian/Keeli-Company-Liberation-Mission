@@ -26,10 +26,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8801.5439,91.019897,25200.842};
-		dir[]={-0.87418664,-0.42732814,-0.23062614};
-		up[]={-0.41319096,0.9040966,-0.1090072};
-		aside[]={-0.25509015,7.4505806e-009,0.96691728};
+		pos[]={8795.6904,84.905785,25185.254};
+		dir[]={-0.87804294,-0.47425687,0.064195685};
+		up[]={-0.47299442,0.88038653,0.03458168};
+		aside[]={0.072917618,0,0.99733806};
 	};
 };
 binarizationWanted=0;
@@ -45215,7 +45215,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this addAction [ " \n "    [""<t color='#FFFF00'>"", localize ""STR_ARSENAL_ACTION"", ""</t><img size='2' image='res\ui_arsenal.paa'/>""] joinString """", " \n "    ""scripts\client\actions\open_arsenal.sqf"", " \n "    nil, " \n "    -740, " \n "    false, " \n "    true, " \n "    """", " \n "    "" " \n "        isNull (objectParent _originalTarget) " \n "        && {alive _originalTarget} " \n "        && {  " \n "            {_originalTarget getVariable ['KPLIB_isNearArsenal', false]} " \n "            || {_originalTarget getVariable ['KPLIB_isNearMobRespawn', false]} " \n "            || {_originalTarget getVariable ['KPLIB_isNearStart', false]} " \n "        } " \n "        && {build_confirmed isEqualTo 0} " \n "    "" " \n "];" \n "" \n "this addAction [ " \n "    [""<t color='#80FF80'>"", localize ""STR_HALO_ACTION"", ""</t><img size='2' image='res\ui_redeploy.paa'/>""] joinString """", " \n "    ""scripts\client\spawn\do_halo.sqf"", " \n "    nil, " \n "    -710, " \n "    false, " \n "    true, " \n "    """", " \n "    "" " \n "        GRLIB_halo_param > 0 " \n "        && {isNull (objectParent _originalTarget)} " \n "        && {alive _originalTarget}  " \n "        && {build_confirmed isEqualTo 0} " \n "    "" " \n "];";
+				init="this addAction [ " \n "    [""<t color='#FFFF00'>"", localize ""STR_ARSENAL_ACTION"", ""</t><img size='2' image='res\ui_arsenal.paa'/>""] joinString """", " \n "    ""scripts\client\actions\open_arsenal.sqf"", " \n "    nil, " \n "    -740, " \n "    false, " \n "    true, " \n "    """", " \n "    "" " \n "        isNull (objectParent _originalTarget) " \n "        && {alive _originalTarget}  " \n "        && {build_confirmed isEqualTo 0} " \n "    "" " \n "];" \n "this addAction [ " \n " [""<t color='#80FF80'>"", localize ""STR_HALO_ACTION"", ""</t><img size='2' image='res\ui_redeploy.paa'/>""] joinString """", " \n " ""scripts\client\spawn\do_halo.sqf"", " \n " nil, " \n " -710, " \n " false, " \n " true, " \n " """", " \n " "" " \n "  GRLIB_halo_param > 0 " \n "  && isNull (objectParent _originalTarget) " \n "  && alive _originalTarget  " \n "  && build_confirmed isEqualTo 0 " \n " "" " \n "];";
 			};
 			id=10893;
 			type="3AS_CIS_CONSOLE_PROP";

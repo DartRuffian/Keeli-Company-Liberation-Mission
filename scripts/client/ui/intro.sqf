@@ -16,7 +16,12 @@ if ( GRLIB_introduction ) then {
     sleep 10;
 
 };
+
+MODIFIED BY DARTRUFFIAN
+Due to the missing delay, some things aren't fully loaded.
+Added Code:
 */
+if (isNil "kp_liberation_allowed_items") then { kp_liberation_allowed_items = []; };
 
 showcaminfo = true;
 dostartgame = 0;
