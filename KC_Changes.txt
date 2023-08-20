@@ -1,0 +1,22 @@
+// --- 8/19/2023 --- \\
+  Changed opfor flag to LS CIS flag (presets > custom.sqf > opfor_flag)
+  Replaced 3AS GATs with LS raptors
+  Added OPFOR BX-Droids for player slots
+  Changed Zeus "Default Addons" to "All addons (including unofficial ones)"
+
+  Replaced most buildable vehicles
+    - 3AS versions of vehicles -> KC variants (AT-TE, AT-RT, etc.)
+    - Quad Bike -> Hornet variants
+    - Kobra trucks -> Gammoths
+  Added more buildable vehicles
+    - Gammoth trucks (Device, medical, etc.)
+    - Glavenus transports
+    - Hornet transports
+    - Badger, Slammer, and OLV-20
+    - Khezu Drones
+    - Republic Transport
+  
+  Moved carrier LAATs forward to prevent them from starting their engines
+
+  Added OPFOR spawn area (top part of map)
+\\ ---   Dart    --- //
