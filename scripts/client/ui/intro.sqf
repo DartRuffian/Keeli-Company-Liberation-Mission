@@ -4,6 +4,9 @@ waitUntil { time > 0 };
 
 [] spawn cinematic_camera;
 
+/*
+MODIFIED BY DARTRUFFIAN - Intro setting doesn't work, manually removed camera
+Original Code:
 if ( GRLIB_introduction ) then {
 
     sleep 1;
@@ -13,6 +16,7 @@ if ( GRLIB_introduction ) then {
     sleep 10;
 
 };
+*/
 
 showcaminfo = true;
 dostartgame = 0;
