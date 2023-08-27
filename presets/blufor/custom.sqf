@@ -217,7 +217,7 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,1000,0,0],
     [KP_liberation_heli_slot_building,250,0,0],
     [KP_liberation_plane_slot_building,500,0,0],
-    ["ACE_medicalSupplyCrate_advanced",50,0,0],
+    ["BNA_KC_Resupply_PlatoonMedical",50,0,0],
     ["ACE_Box_82mm_Mo_HE",50,40,0],
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
@@ -328,6 +328,7 @@ elite_vehicles = [
     "3as_AV7",                                                         // F-15E Strike Eagle
     "BNA_KC_Juggernaut",                                                      // F/A-18 E Super Hornet
     "BNA_KC_LAATi_MK1",                                                      // F/A-18 F Super Hornet
+    "BNA_KC_LAATi_MK2",                                                      // F/A-18 F Super Hornet
     "3as_Z95_Republic",                                             // F/A-181 Black Wasp II
     "3as_arc_170_red",                                     // F/A-181 Black Wasp II (Stealth)
     "3AS_BTLB_Bomber"                                               // V-44 X Blackfish (Armed)

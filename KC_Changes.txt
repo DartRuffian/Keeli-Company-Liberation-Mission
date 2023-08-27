@@ -27,3 +27,8 @@
   Swapped out flags for KC flags
   Swapped out base hescos for LS hescos
 \\ ---   Dart    --- //
+
+// --- 8/27/2023 --- \\
+  Added LAAT/i MK2 to Elite Vehicles list
+  Swapped out ACE medical crate for KC crate
+\\ ---   Dart    --- //
