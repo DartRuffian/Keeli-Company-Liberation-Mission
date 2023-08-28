@@ -14,7 +14,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=10931;
+		nextID=10945;
 	};
 	class MarkerIDProvider
 	{
@@ -22,14 +22,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1403;
+		nextID=1420;
 	};
 	class Camera
 	{
-		pos[]={8794.1191,101.77118,25233.717};
-		dir[]={-0.041579373,-0.608253,-0.79269361};
-		up[]={-0.031861529,0.79373902,-0.60743475};
-		aside[]={-0.99865311,3.0099181e-007,0.052383155};
+		pos[]={14484.056,14.657365,5892.3516};
+		dir[]={0.86729801,-0.43753275,0.23743537};
+		up[]={0.42201516,0.89919931,0.11553276};
+		aside[]={0.26405036,-3.6496203e-008,-0.96451747};
 	};
 };
 binarizationWanted=0;
@@ -30453,7 +30453,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=537;
+		items=540;
 		class Item0
 		{
 			dataType="Marker";
@@ -42984,19 +42984,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14494,7.2281284,5897.0498};
+						position[]={14495,7.5188046,5896.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
-					flags=5;
+					flags=6;
 					class Attributes
 					{
-						description="Rifleman";
+						description="Squad Lead@CIS SpecOps";
 						isPlayable=1;
 					};
-					id=10189;
-					type="lsd_cis_bxdroid_specops";
-					atlOffset=4.7683716e-007;
+					id=10199;
+					type="lsd_cis_bxCaptain_specops";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43085,19 +43084,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14494,7.0971713,5898.0498};
+						position[]={14496,7.5028114,5897.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
 					flags=5;
 					class Attributes
 					{
-						description="Rifleman";
+						description="Medic";
 						isPlayable=1;
 					};
-					id=10191;
+					id=10935;
 					type="lsd_cis_bxdroid_specops";
-					atlOffset=0.045000553;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43186,7 +43184,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496,7.4174986,5898.0498};
+						position[]={14494,7.2281284,5897.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
@@ -43196,7 +43194,7 @@ class Mission
 						description="Rifleman";
 						isPlayable=1;
 					};
-					id=10193;
+					id=10937;
 					type="lsd_cis_bxdroid_specops";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -43287,18 +43285,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496,7.5028114,5897.0498};
+						position[]={14494,7.0971713,5898.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
 					flags=5;
 					class Attributes
 					{
-						description="Medic";
+						description="Rifleman";
 						isPlayable=1;
 					};
-					id=10195;
+					id=10941;
 					type="lsd_cis_bxdroid_specops";
+					atlOffset=0.045000553;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43387,18 +43386,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14495,7.5188046,5896.0498};
+						position[]={14496,7.4174986,5898.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
-					flags=6;
+					flags=5;
 					class Attributes
 					{
-						description="Squad Lead@CIS SpecOps";
+						description="Rifleman";
 						isPlayable=1;
 					};
-					id=10199;
-					type="lsd_cis_bxCaptain_specops";
+					id=10944;
+					type="lsd_cis_bxdroid_specops";
+					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -45239,6 +45239,36 @@ class Mission
 			id=10898;
 			type="3AS_Pad_CIS_Prop";
 			atlOffset=-1.5312309;
+		};
+		class Item537
+		{
+			dataType="Group";
+			side="East";
+			class Attributes
+			{
+			};
+			id=10931;
+			atlOffset=185.97;
+		};
+		class Item538
+		{
+			dataType="Group";
+			side="East";
+			class Attributes
+			{
+			};
+			id=10936;
+			atlOffset=185.97;
+		};
+		class Item539
+		{
+			dataType="Group";
+			side="East";
+			class Attributes
+			{
+			};
+			id=10940;
+			atlOffset=185.97;
 		};
 	};
 	class Connections
