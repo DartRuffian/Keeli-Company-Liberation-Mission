@@ -14,7 +14,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=10945;
+		nextID=10950;
 	};
 	class MarkerIDProvider
 	{
@@ -22,14 +22,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1420;
+		nextID=1454;
 	};
 	class Camera
 	{
-		pos[]={14484.056,14.657365,5892.3516};
-		dir[]={0.86729103,-0.43752924,0.23743346};
-		up[]={0.42200112,0.89920413,0.1155289};
-		aside[]={0.26404843,-7.4505806e-009,-0.96450955};
+		pos[]={14490.178,9.4672909,5893.9839};
+		dir[]={0.843822,-0.23938005,0.48030826};
+		up[]={0.20804502,0.9709245,0.11842005};
+		aside[]={0.49469137,8.1025064e-008,-0.8690899};
 	};
 };
 binarizationWanted=0;
@@ -68,9 +68,18 @@ addons[]=
 	"ls_flags",
 	"A3_Modules_F_Multiplayer",
 	"A3_Characters_F",
-	"BNA_KC_Vehicles_Armored",
 	"BNA_KC_Vehicles_Aviation",
-	"lsd_units_redfor",
+	"BNA_KC_OPFOR_CIS",
+	"BNA_KC_Weapons_E5",
+	"SWLW_droids_pistols_RG4D",
+	"A3_Weapons_F",
+	"tfar_handhelds",
+	"SWLB_radios",
+	"SWLB_radios_beta",
+	"BNA_KC_Gear_Infantry",
+	"ls_weapons",
+	"ace_captives",
+	"3AS_Equipment",
 	"OPTRE_UNSC_Structure_Military",
 	"OPTRE_UNSC_Structure_Containers",
 	"OPTRE_Buildings_Street_Objects",
@@ -83,7 +92,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=24;
+		items=33;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -188,48 +197,103 @@ class AddonsMetaData
 		class Item15
 		{
 			className="BNA_KC_Vehicles";
-			name="BNA_KC_Vehicles_Armored";
+			name="BNA_KC_Vehicles_Aviation";
 			author="SweMonkey and DartRuffian";
 		};
 		class Item16
 		{
-			className="lsd_units_redfor";
-			name="Legion Studios - Dissension: Redfor Units";
-			author="Legion Studios";
+			className="BNA_KC_Gear";
+			name="BNA_KC_OPFOR_CIS";
+			author="SweMonkey and DartRuffian";
 		};
 		class Item17
+		{
+			className="BNA_KC_Weapons";
+			name="BNA_KC_Weapons_E5";
+			author="SweMonkey and DartRuffian";
+		};
+		class Item18
+		{
+			className="SWLW_droids_pistols_RG4D";
+			name="SWLW_droids_pistols_RG4D";
+			author="SW Legion Studios";
+		};
+		class Item19
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item20
+		{
+			className="tfar_handhelds";
+			name="tfar_handhelds";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
+		};
+		class Item21
+		{
+			className="SWLB_radios";
+			name="SWLB_radios";
+			author="SW Legion Studios";
+		};
+		class Item22
+		{
+			className="SWLB_radios_beta";
+			name="SWLB_radios_beta";
+			author="Marco";
+		};
+		class Item23
+		{
+			className="ls_weapons";
+			name="ls_weapons";
+			author="Legion Stuidos";
+		};
+		class Item24
+		{
+			className="ace_captives";
+			name="ACE3 - Captives";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item25
+		{
+			className="3AS_Equipment";
+			name="3AS_Equipment";
+		};
+		class Item26
 		{
 			className="OPTRE_UNSC_Structure_Military";
 			name="OPTRE_UNSC_Structure_Military";
 		};
-		class Item18
+		class Item27
 		{
 			className="OPTRE_UNSC_Structure_Containers";
 			name="OPTRE_UNSC_Structure_Containers";
 		};
-		class Item19
+		class Item28
 		{
 			className="OPTRE_Buildings_Street_Objects";
 			name="OPTRE_Buildings_Street_Objects";
 		};
-		class Item20
+		class Item29
 		{
 			className="lsb_structures";
 			name="Legion Battlefields: Structures";
 			author="Legion Studios";
 		};
-		class Item21
+		class Item30
 		{
 			className="3AS_Structures_LandingPads";
 			name="3AS_Structures_LandingPads";
 			author="3rd Army Studios";
 		};
-		class Item22
+		class Item31
 		{
 			className="ls_hmp";
 			name="ls_hmp";
 		};
-		class Item23
+		class Item32
 		{
 			className="3AS_Prop_Terminals";
 			name="3AS_Prop_Terminals";
@@ -260,7 +324,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -30453,7 +30517,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=537;
+		items=535;
 		class Item0
 		{
 			dataType="Marker";
@@ -30498,8 +30562,8 @@ class Mission
 		class Item3
 		{
 			dataType="Trigger";
-			position[]={14504.391,7.6947284,5899.043};
-			angle=6.1939669;
+			position[]={14504.39,7.6947217,5899.043};
+			angle=6.193964;
 			class Attributes
 			{
 				condition="GRLIB_endgame == 1";
@@ -42870,78 +42934,12 @@ class Mission
 		};
 		class Item520
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={27475.943,25.437836,5412.4272};
-				angles[]={0,4.712389,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=9804;
-			type="BNA_KC_ATTE";
-			atlOffset=209.49829;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[""arifle_MX_F"",""FirstAidKit""],[2,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[12,6,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item521
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={27475.943,25.437828,5425.4272};
-				angles[]={0,4.712389,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=9805;
-			type="BNA_KC_ATTE";
-			atlOffset=209.49799;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[""arifle_MX_F"",""FirstAidKit""],[2,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[12,6,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item522
-		{
 			dataType="Layer";
 			name="Perms_Arsenal Terminals";
 			id=10063;
 			atlOffset=185.97;
 		};
-		class Item523
+		class Item521
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42956,7 +42954,7 @@ class Mission
 			id=10186;
 			type="BNA_KC_LAATi_MK1";
 		};
-		class Item524
+		class Item522
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42972,7 +42970,7 @@ class Mission
 			type="BNA_KC_LAATi_MK1";
 			atlOffset=7.6293945e-005;
 		};
-		class Item525
+		class Item523
 		{
 			dataType="Group";
 			side="East";
@@ -42993,9 +42991,98 @@ class Mission
 					{
 						description="Squad Lead@CIS SpecOps";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="BNA_KC_E5";
+								firemode="BNA_KC_E5:Single";
+								class primaryMuzzleMag
+								{
+									name="12thFleet_Mag_E5";
+									ammoLeft=100;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_RG4D";
+								class primaryMuzzleMag
+								{
+									name="SWLW_RG4D_Mag";
+									ammoLeft=20;
+								};
+							};
+							class uniform
+							{
+								typeName="BNA_KC_OPFOR_Uniform_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="BNA_KC_OPFOR_Vest_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SWLW_RG4D_Mag";
+										count=1;
+										ammoLeft=20;
+									};
+									class Item1
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="3AS_SmokeWhite";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="12thFleet_Mag_E5";
+										count=8;
+										ammoLeft=100;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="BNA_KC_Backpack_Invisible";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="TFAR_microdagr";
+							radio="SWLB_comlink_droid";
+							hmd="BNA_KC_NVG_Chip";
+						};
 					};
-					id=10199;
-					type="lsd_cis_bxCaptain_specops";
+					id=10945;
+					type="BNA_KC_OPFOR_Unit_BXDroid";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43088,14 +43175,103 @@ class Mission
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						description="Medic";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="BNA_KC_E5";
+								firemode="BNA_KC_E5:Single";
+								class primaryMuzzleMag
+								{
+									name="12thFleet_Mag_E5";
+									ammoLeft=100;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_RG4D";
+								class primaryMuzzleMag
+								{
+									name="SWLW_RG4D_Mag";
+									ammoLeft=20;
+								};
+							};
+							class uniform
+							{
+								typeName="BNA_KC_OPFOR_Uniform_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="BNA_KC_OPFOR_Vest_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SWLW_RG4D_Mag";
+										count=1;
+										ammoLeft=20;
+									};
+									class Item1
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="3AS_SmokeWhite";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="12thFleet_Mag_E5";
+										count=8;
+										ammoLeft=100;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="BNA_KC_Backpack_Invisible";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="TFAR_microdagr";
+							radio="SWLB_comlink_droid";
+							hmd="BNA_KC_NVG_Chip";
+						};
 					};
-					id=10935;
-					type="lsd_cis_bxdroid_specops";
+					id=10946;
+					type="BNA_KC_OPFOR_Unit_BXDroid";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43184,18 +43360,107 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14494,7.2281284,5897.0498};
+						position[]={14494,7.2281289,5897.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						description="Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="BNA_KC_E5";
+								firemode="BNA_KC_E5:Single";
+								class primaryMuzzleMag
+								{
+									name="12thFleet_Mag_E5";
+									ammoLeft=100;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_RG4D";
+								class primaryMuzzleMag
+								{
+									name="SWLW_RG4D_Mag";
+									ammoLeft=20;
+								};
+							};
+							class uniform
+							{
+								typeName="BNA_KC_OPFOR_Uniform_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="BNA_KC_OPFOR_Vest_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SWLW_RG4D_Mag";
+										count=1;
+										ammoLeft=20;
+									};
+									class Item1
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="3AS_SmokeWhite";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="12thFleet_Mag_E5";
+										count=8;
+										ammoLeft=100;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="BNA_KC_Backpack_Invisible";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="TFAR_microdagr";
+							radio="SWLB_comlink_droid";
+							hmd="BNA_KC_NVG_Chip";
+						};
 					};
-					id=10937;
-					type="lsd_cis_bxdroid_specops";
+					id=10947;
+					type="BNA_KC_OPFOR_Unit_BXDroid";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
@@ -43289,14 +43554,103 @@ class Mission
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						description="Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="BNA_KC_E5";
+								firemode="BNA_KC_E5:Single";
+								class primaryMuzzleMag
+								{
+									name="12thFleet_Mag_E5";
+									ammoLeft=100;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_RG4D";
+								class primaryMuzzleMag
+								{
+									name="SWLW_RG4D_Mag";
+									ammoLeft=20;
+								};
+							};
+							class uniform
+							{
+								typeName="BNA_KC_OPFOR_Uniform_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="BNA_KC_OPFOR_Vest_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SWLW_RG4D_Mag";
+										count=1;
+										ammoLeft=20;
+									};
+									class Item1
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="3AS_SmokeWhite";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="12thFleet_Mag_E5";
+										count=8;
+										ammoLeft=100;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="BNA_KC_Backpack_Invisible";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="TFAR_microdagr";
+							radio="SWLB_comlink_droid";
+							hmd="BNA_KC_NVG_Chip";
+						};
 					};
-					id=10941;
-					type="lsd_cis_bxdroid_specops";
+					id=10948;
+					type="BNA_KC_OPFOR_Unit_BXDroid";
 					atlOffset=0.045000553;
 					class CustomAttributes
 					{
@@ -43386,18 +43740,107 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496,7.4174986,5898.0498};
+						position[]={14496,7.4174991,5898.0498};
 						angles[]={0,3.1415927,0};
 					};
 					side="East";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						description="Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="BNA_KC_E5";
+								firemode="BNA_KC_E5:Single";
+								class primaryMuzzleMag
+								{
+									name="12thFleet_Mag_E5";
+									ammoLeft=100;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_RG4D";
+								class primaryMuzzleMag
+								{
+									name="SWLW_RG4D_Mag";
+									ammoLeft=20;
+								};
+							};
+							class uniform
+							{
+								typeName="BNA_KC_OPFOR_Uniform_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="BNA_KC_OPFOR_Vest_BXDroid_Actor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SWLW_RG4D_Mag";
+										count=1;
+										ammoLeft=20;
+									};
+									class Item1
+									{
+										name="ls_mag_classC_thermalDet";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="3AS_SmokeWhite";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="12thFleet_Mag_E5";
+										count=8;
+										ammoLeft=100;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="BNA_KC_Backpack_Invisible";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="TFAR_microdagr";
+							radio="SWLB_comlink_droid";
+							hmd="BNA_KC_NVG_Chip";
+						};
 					};
-					id=10944;
-					type="lsd_cis_bxdroid_specops";
+					id=10949;
+					type="BNA_KC_OPFOR_Unit_BXDroid";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
@@ -43488,7 +43931,7 @@ class Mission
 			};
 			id=10196;
 		};
-		class Item526
+		class Item524
 		{
 			dataType="Object";
 			class PositionInfo
@@ -43504,7 +43947,7 @@ class Mission
 			type="BNA_KC_LAATi_MK2";
 			atlOffset=0.00027656555;
 		};
-		class Item527
+		class Item525
 		{
 			dataType="Object";
 			class PositionInfo
@@ -43520,21 +43963,21 @@ class Mission
 			type="BNA_KC_LAATi_MK2";
 			atlOffset=0.00018119812;
 		};
-		class Item528
+		class Item526
 		{
 			dataType="Layer";
 			name="CIS Listening Outpost";
 			id=10394;
 			atlOffset=185.97;
 		};
-		class Item529
+		class Item527
 		{
 			dataType="Layer";
 			name="Bar";
 			id=10406;
 			atlOffset=185.97;
 		};
-		class Item530
+		class Item528
 		{
 			dataType="Layer";
 			name="OPFOR Spawn";
@@ -45009,7 +45452,7 @@ class Mission
 			id=10494;
 			atlOffset=0.55474854;
 		};
-		class Item531
+		class Item529
 		{
 			dataType="Object";
 			class PositionInfo
@@ -45027,7 +45470,7 @@ class Mission
 			type="3AS_Pad_CIS_Prop";
 			atlOffset=0.57300568;
 		};
-		class Item532
+		class Item530
 		{
 			dataType="Object";
 			class PositionInfo
@@ -45043,7 +45486,7 @@ class Mission
 			type="ls_cis_hmp";
 			atlOffset=2.0883636;
 		};
-		class Item533
+		class Item531
 		{
 			dataType="Object";
 			class PositionInfo
@@ -45059,7 +45502,7 @@ class Mission
 			type="ls_cis_hmp_transport";
 			atlOffset=2.0760956;
 		};
-		class Item534
+		class Item532
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -45204,7 +45647,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item535
+		class Item533
 		{
 			dataType="Object";
 			class PositionInfo
@@ -45221,7 +45664,7 @@ class Mission
 			type="3AS_CIS_CONSOLE_PROP";
 			atlOffset=0.66100311;
 		};
-		class Item536
+		class Item534
 		{
 			dataType="Object";
 			class PositionInfo
@@ -45245,11 +45688,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=11;
+			nextID=9;
 		};
 		class Links
 		{
-			items=11;
+			items=9;
 			class Item0
 			{
 				linkID=0;
@@ -45283,7 +45726,7 @@ class Mission
 			class Item3
 			{
 				linkID=3;
-				item0=9804;
+				item0=10249;
 				item1=9464;
 				class CustomData
 				{
@@ -45293,7 +45736,7 @@ class Mission
 			class Item4
 			{
 				linkID=4;
-				item0=9805;
+				item0=10250;
 				item1=9464;
 				class CustomData
 				{
@@ -45303,7 +45746,7 @@ class Mission
 			class Item5
 			{
 				linkID=5;
-				item0=10249;
+				item0=10186;
 				item1=9464;
 				class CustomData
 				{
@@ -45313,7 +45756,7 @@ class Mission
 			class Item6
 			{
 				linkID=6;
-				item0=10250;
+				item0=10187;
 				item1=9464;
 				class CustomData
 				{
@@ -45323,8 +45766,8 @@ class Mission
 			class Item7
 			{
 				linkID=7;
-				item0=10186;
-				item1=9464;
+				item0=10886;
+				item1=10889;
 				class CustomData
 				{
 					type="Sync";
@@ -45333,26 +45776,6 @@ class Mission
 			class Item8
 			{
 				linkID=8;
-				item0=10187;
-				item1=9464;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item9
-			{
-				linkID=9;
-				item0=10886;
-				item1=10889;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item10
-			{
-				linkID=10;
 				item0=10887;
 				item1=10889;
 				class CustomData
