@@ -14,7 +14,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=10950;
+		nextID=10976;
 	};
 	class MarkerIDProvider
 	{
@@ -26,10 +26,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14490.178,9.4672909,5893.9839};
-		dir[]={0.843822,-0.23938005,0.48030826};
-		up[]={0.20804502,0.9709245,0.11842005};
-		aside[]={0.49469137,8.1025064e-008,-0.8690899};
+		pos[]={14499.16,12.141726,5898.7109};
+		dir[]={-0.38646612,-0.21906026,-0.8960017};
+		up[]={-0.086773105,0.97570539,-0.20118004};
+		aside[]={-0.9183026,-1.8451829e-007,0.39608163};
 	};
 };
 binarizationWanted=0;
@@ -41,7 +41,20 @@ addons[]=
 	"A3_Modules_F",
 	"SWLB_clones",
 	"LS_units_clones",
-	"JLTS_characters_CloneArmor",
+	"SWLW_clones_rifles_DC15A",
+	"SWLW_clones_pistols_DC17",
+	"SWLW_main",
+	"A3_Weapons_F",
+	"JLTS_weapons_Core",
+	"SWLB_radios",
+	"SWLB_radios_beta",
+	"SWLW_clones_grenades_beltGrenade",
+	"A3_Weapons_F_Items",
+	"ace_medical_engine",
+	"ace_medical_treatment",
+	"ace_realisticnames",
+	"ace_attach",
+	"ace_chemlights",
 	"A3_Structures_F_Mil_Fortification",
 	"A3_Structures_F_Mil_TentHangar",
 	"A3_Structures_F_Civ_InfoBoards",
@@ -72,10 +85,7 @@ addons[]=
 	"BNA_KC_OPFOR_CIS",
 	"BNA_KC_Weapons_E5",
 	"SWLW_droids_pistols_RG4D",
-	"A3_Weapons_F",
 	"tfar_handhelds",
-	"SWLB_radios",
-	"SWLB_radios_beta",
 	"BNA_KC_Gear_Infantry",
 	"ls_weapons",
 	"ace_captives",
@@ -92,7 +102,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=33;
+		items=41;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -128,172 +138,224 @@ class AddonsMetaData
 		};
 		class Item5
 		{
-			className="JLTS_characters_CloneArmor";
-			name="JLTS The Great War - Clones I";
-			author="MrClock";
+			className="SWLW_clones_rifles_DC15A";
+			name="SWLW_clones_rifles_DC15A";
+			author="SW Legion Studios";
 		};
 		class Item6
 		{
-			className="A3_Structures_F_Mil";
-			name="Arma 3 - Military Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			className="SWLW_clones_pistols_DC17";
+			name="SWLW_clones_pistols_DC17";
+			author="SW Legion Studios";
 		};
 		class Item7
 		{
-			className="A3_Structures_F";
-			name="Arma 3 - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item8
-		{
-			className="ace_sitting";
-			name="ACE3 - Sitting";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item9
-		{
-			className="A3_Structures_F_Households";
-			name="Arma 3 - Houses";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item10
-		{
-			className="A3_Structures_F_Ind";
-			name="Arma 3 - Industrial Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item11
-		{
-			className="ace_logistics_wirecutter";
-			name="ACE3 - Logistics Wire Cutter";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item12
-		{
-			className="A3_Boat_F_Jets";
-			name="Arma 3 Jets - Boats and Submersibles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item13
-		{
-			className="ls_flags";
-			name="ls_flags";
-			author="Legion Studios";
-		};
-		class Item14
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item15
-		{
-			className="BNA_KC_Vehicles";
-			name="BNA_KC_Vehicles_Aviation";
-			author="SweMonkey and DartRuffian";
-		};
-		class Item16
-		{
-			className="BNA_KC_Gear";
-			name="BNA_KC_OPFOR_CIS";
-			author="SweMonkey and DartRuffian";
-		};
-		class Item17
-		{
-			className="BNA_KC_Weapons";
-			name="BNA_KC_Weapons_E5";
-			author="SweMonkey and DartRuffian";
-		};
-		class Item18
-		{
-			className="SWLW_droids_pistols_RG4D";
-			name="SWLW_droids_pistols_RG4D";
+			className="SWLW_main";
+			name="SWLW_main";
 			author="SW Legion Studios";
 		};
-		class Item19
+		class Item8
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item9
 		{
-			className="tfar_handhelds";
-			name="tfar_handhelds";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
+			className="JLTS_weapons_Core";
+			name="JLTS The Great War - Weapons Core";
+			author="MrClock";
 		};
-		class Item21
+		class Item10
 		{
 			className="SWLB_radios";
 			name="SWLB_radios";
 			author="SW Legion Studios";
 		};
-		class Item22
+		class Item11
 		{
 			className="SWLB_radios_beta";
 			name="SWLB_radios_beta";
 			author="Marco";
 		};
+		class Item12
+		{
+			className="SWLW_clones_grenades_beltGrenade";
+			name="SWLW_clones_grenades_beltGrenade";
+			author="Legion Studios - Core: Deprecated Grenades";
+		};
+		class Item13
+		{
+			className="ace_medical_engine";
+			name="ACE3 - Medical Engine";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item14
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item15
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item16
+		{
+			className="ace_attach";
+			name="ACE3 - Attach";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item17
+		{
+			className="ace_chemlights";
+			name="ace_chemlights";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item18
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item19
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item20
+		{
+			className="ace_sitting";
+			name="ACE3 - Sitting";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item21
+		{
+			className="A3_Structures_F_Households";
+			name="Arma 3 - Houses";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="A3_Structures_F_Ind";
+			name="Arma 3 - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 		class Item23
+		{
+			className="ace_logistics_wirecutter";
+			name="ACE3 - Logistics Wire Cutter";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item24
+		{
+			className="A3_Boat_F_Jets";
+			name="Arma 3 Jets - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item25
+		{
+			className="ls_flags";
+			name="ls_flags";
+			author="Legion Studios";
+		};
+		class Item26
+		{
+			className="BNA_KC_Vehicles";
+			name="BNA_KC_Vehicles_Aviation";
+			author="SweMonkey and DartRuffian";
+		};
+		class Item27
+		{
+			className="BNA_KC_Gear";
+			name="BNA_KC_OPFOR_CIS";
+			author="SweMonkey and DartRuffian";
+		};
+		class Item28
+		{
+			className="BNA_KC_Weapons";
+			name="BNA_KC_Weapons_E5";
+			author="SweMonkey and DartRuffian";
+		};
+		class Item29
+		{
+			className="SWLW_droids_pistols_RG4D";
+			name="SWLW_droids_pistols_RG4D";
+			author="SW Legion Studios";
+		};
+		class Item30
+		{
+			className="tfar_handhelds";
+			name="tfar_handhelds";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
+		};
+		class Item31
 		{
 			className="ls_weapons";
 			name="ls_weapons";
 			author="Legion Stuidos";
 		};
-		class Item24
+		class Item32
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item25
+		class Item33
 		{
 			className="3AS_Equipment";
 			name="3AS_Equipment";
 		};
-		class Item26
+		class Item34
 		{
 			className="OPTRE_UNSC_Structure_Military";
 			name="OPTRE_UNSC_Structure_Military";
 		};
-		class Item27
+		class Item35
 		{
 			className="OPTRE_UNSC_Structure_Containers";
 			name="OPTRE_UNSC_Structure_Containers";
 		};
-		class Item28
+		class Item36
 		{
 			className="OPTRE_Buildings_Street_Objects";
 			name="OPTRE_Buildings_Street_Objects";
 		};
-		class Item29
+		class Item37
 		{
 			className="lsb_structures";
 			name="Legion Battlefields: Structures";
 			author="Legion Studios";
 		};
-		class Item30
+		class Item38
 		{
 			className="3AS_Structures_LandingPads";
 			name="3AS_Structures_LandingPads";
 			author="3rd Army Studios";
 		};
-		class Item31
+		class Item39
 		{
 			className="ls_hmp";
 			name="ls_hmp";
 		};
-		class Item32
+		class Item40
 		{
 			className="3AS_Prop_Terminals";
 			name="3AS_Prop_Terminals";
@@ -303,6 +365,7 @@ class AddonsMetaData
 };
 dlcs[]=
 {
+	"Expansion",
 	"Jets",
 	"BNA_KC",
 	"OPTRE"
@@ -30979,7 +31042,7 @@ class Mission
 						rank="COLONEL";
 						init="removeallWeapons this; removebackpack this; this setVariable ['ace_medical_medicClass', 1]; this setVariable ['ACE_isEngineer', 1];";
 						name="commandant";
-						description="Platoon Leader (Commander)";
+						description="Platoon Leader (Commander)@Platoon Command";
 						isPlayable=1;
 					};
 					id=6426;
@@ -31258,8 +31321,8 @@ class Mission
 						description="Squad 1 Team 1 Rifleman";
 						isPlayable=1;
 					};
-					id=6434;
-					type="JLTS_Clone_P2_DC15A";
+					id=10950;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31345,8 +31408,8 @@ class Mission
 						description="Squad 1 Team 1 Rifleman";
 						isPlayable=1;
 					};
-					id=6435;
-					type="JLTS_Clone_P2_DC15A";
+					id=10951;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31432,8 +31495,8 @@ class Mission
 						description="Squad 1 Team 1 Rifleman";
 						isPlayable=1;
 					};
-					id=6436;
-					type="JLTS_Clone_P2_DC15A";
+					id=10952;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31519,8 +31582,8 @@ class Mission
 						description="Squad 1 Team 2 Rifleman";
 						isPlayable=1;
 					};
-					id=6437;
-					type="JLTS_Clone_P2_DC15A";
+					id=10953;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31606,8 +31669,8 @@ class Mission
 						description="Squad 1 Team 2 Rifleman";
 						isPlayable=1;
 					};
-					id=6438;
-					type="JLTS_Clone_P2_DC15A";
+					id=10954;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31693,8 +31756,8 @@ class Mission
 						description="Squad 1 Team 2 Rifleman";
 						isPlayable=1;
 					};
-					id=6439;
-					type="JLTS_Clone_P2_DC15A";
+					id=10955;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31770,182 +31833,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14484.71,11.325862,5885.1426};
-						angles[]={0.10626491,0,6.0640931};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						description="Squad 1 Leader";
-						isPlayable=1;
-					};
-					id=6446;
-					type="JLTS_Clone_P2_captain";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ENH_unitTraits_medic";
-							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ENH_unitTraits_engineer";
-							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ENH_unitTrait_UAVHacker";
-							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="ENH_unitTrait_explosiveSpecialist";
-							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14485.71,11.636599,5880.1426};
-						angles[]={0.10626491,0,6.0640931};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="CORPORAL";
-						description="Squad 1 Medic";
-						isPlayable=1;
-					};
-					id=6448;
-					type="JLTS_Clone_P2_corporal";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ENH_unitTraits_medic";
-							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ENH_unitTraits_engineer";
-							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.97000003;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ENH_unitTrait_UAVHacker";
-							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="ENH_unitTrait_explosiveSpecialist";
-							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={14486.71,10.872711,5884.1426};
 						angles[]={0.24435127,0,5.9329162};
 					};
@@ -31956,9 +31843,152 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 1 Team 2 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SWLW_DC15A";
+								firemode="SWLW_DC15A:Single";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC15A_Mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_DC17";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC17_Mag";
+									ammoLeft=20;
+								};
+								class secondaryMuzzleMag
+								{
+									name="SWLW_smokeRed_mag";
+									ammoLeft=3;
+								};
+							};
+							class uniform
+							{
+								typeName="SWLB_clone_uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SWLB_clone_recon_nco_armor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SWLB_clone_backpack_predef_heavy";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="SWLB_comlink";
+							headgear="SWLB_clone_P2_helmet";
+						};
 					};
-					id=6454;
-					type="JLTS_Clone_P2_sergeant";
+					id=10957;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32029,7 +32059,7 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item10
+				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
@@ -32044,9 +32074,152 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 1 Team 1 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SWLW_DC15A";
+								firemode="SWLW_DC15A:Single";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC15A_Mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_DC17";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC17_Mag";
+									ammoLeft=20;
+								};
+								class secondaryMuzzleMag
+								{
+									name="SWLW_smokeRed_mag";
+									ammoLeft=3;
+								};
+							};
+							class uniform
+							{
+								typeName="SWLB_clone_uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SWLB_clone_recon_nco_armor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SWLB_clone_backpack_predef_heavy";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="SWLB_comlink";
+							headgear="SWLB_clone_P2_helmet";
+						};
 					};
-					id=6455;
-					type="JLTS_Clone_P2_sergeant";
+					id=10958;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32115,6 +32288,351 @@ class Mission
 							};
 						};
 						nAttributes=5;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14484.71,11.325862,5885.1426};
+						angles[]={0.1062731,0,6.0640941};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						description="Squad Leader@Squad 1";
+						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SWLW_DC15A";
+								firemode="SWLW_DC15A:Single";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC15A_Mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_DC17";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC17_Mag";
+									ammoLeft=20;
+								};
+								class secondaryMuzzleMag
+								{
+									name="SWLW_smokeRed_mag";
+									ammoLeft=3;
+								};
+							};
+							class uniform
+							{
+								typeName="SWLB_clone_uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SWLB_clone_recon_officer_armor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SWLB_clone_backpack_predef_heavy";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="SWLB_comlink";
+							headgear="SWLB_clone_P2_helmet";
+						};
+					};
+					id=10959;
+					type="SWLB_clone_base_P2";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ENH_unitTraits_medic";
+							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ENH_unitTraits_engineer";
+							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ENH_unitTrait_UAVHacker";
+							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ENH_unitTrait_explosiveSpecialist";
+							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14485.71,11.636599,5880.1426};
+						angles[]={0.1062731,0,6.0640941};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="CORPORAL";
+						description="Squad 1 Medic";
+						isPlayable=1;
+					};
+					id=10960;
+					type="SWLB_clone_medic_base_P2";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ENH_unitTraits_medic";
+							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ENH_unitTraits_engineer";
+							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ENH_unitTrait_UAVHacker";
+							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ENH_unitTrait_explosiveSpecialist";
+							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=6;
 					};
 				};
 			};
@@ -32206,8 +32724,8 @@ class Mission
 						description="Squad 2 Team 1 Rifleman";
 						isPlayable=1;
 					};
-					id=6440;
-					type="JLTS_Clone_P2_DC15A";
+					id=10965;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32293,8 +32811,8 @@ class Mission
 						description="Squad 2 Team 1 Rifleman";
 						isPlayable=1;
 					};
-					id=6441;
-					type="JLTS_Clone_P2_DC15A";
+					id=10966;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32380,8 +32898,8 @@ class Mission
 						description="Squad 2 Team 1 Rifleman";
 						isPlayable=1;
 					};
-					id=6442;
-					type="JLTS_Clone_P2_DC15A";
+					id=10967;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32467,8 +32985,8 @@ class Mission
 						description="Squad 2 Team 2 Rifleman";
 						isPlayable=1;
 					};
-					id=6443;
-					type="JLTS_Clone_P2_DC15A";
+					id=10968;
+					type="SWLB_clone_base_P2";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
@@ -32555,8 +33073,8 @@ class Mission
 						description="Squad 2 Team 2 Rifleman";
 						isPlayable=1;
 					};
-					id=6444;
-					type="JLTS_Clone_P2_DC15A";
+					id=10969;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32642,8 +33160,8 @@ class Mission
 						description="Squad 2 Team 2 Rifleman";
 						isPlayable=1;
 					};
-					id=6445;
-					type="JLTS_Clone_P2_DC15A";
+					id=10970;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32719,19 +33237,162 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14489.71,9.7766438,5884.1426};
+						position[]={14489.71,10.025916,5883.1426};
 						angles[]={0.24435127,0,5.9329162};
 					};
 					side="West";
-					flags=6;
+					flags=4;
 					class Attributes
 					{
-						rank="SERGEANT";
-						description="Squad 2 Leader";
+						rank="CORPORAL";
+						description="Squad 2 Team 1 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SWLW_DC15A";
+								firemode="SWLW_DC15A:Single";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC15A_Mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_DC17";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC17_Mag";
+									ammoLeft=20;
+								};
+								class secondaryMuzzleMag
+								{
+									name="SWLW_smokeRed_mag";
+									ammoLeft=3;
+								};
+							};
+							class uniform
+							{
+								typeName="SWLB_clone_uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SWLB_clone_recon_nco_armor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SWLB_clone_backpack_predef_heavy";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="SWLB_comlink";
+							headgear="SWLB_clone_P2_helmet";
+						};
 					};
-					id=6447;
-					type="JLTS_Clone_P2_captain";
+					id=10972;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32807,94 +33468,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14490.71,10.793959,5879.1426};
-						angles[]={0.21018261,0,6.1558776};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="CORPORAL";
-						description="Squad 2 Medic";
-						isPlayable=1;
-					};
-					id=6449;
-					type="JLTS_Clone_P2_corporal";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ENH_unitTraits_medic";
-							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ENH_unitTraits_engineer";
-							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.97000003;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ENH_unitTrait_UAVHacker";
-							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="ENH_unitTrait_explosiveSpecialist";
-							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={14491.71,9.9133787,5883.1426};
 						angles[]={0.24435101,0,6.2791886};
 					};
@@ -32905,9 +33478,152 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 2 Team 2 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SWLW_DC15A";
+								firemode="SWLW_DC15A:Single";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC15A_Mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_DC17";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC17_Mag";
+									ammoLeft=20;
+								};
+								class secondaryMuzzleMag
+								{
+									name="SWLW_smokeRed_mag";
+									ammoLeft=3;
+								};
+							};
+							class uniform
+							{
+								typeName="SWLB_clone_uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SWLB_clone_recon_nco_armor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SWLB_clone_backpack_predef_heavy";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="SWLB_comlink";
+							headgear="SWLB_clone_P2_helmet";
+						};
 					};
-					id=6452;
-					type="JLTS_Clone_P2_sergeant";
+					id=10973;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32978,24 +33694,167 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14489.71,10.025916,5883.1426};
-						angles[]={0.24435127,0,5.9329162};
+						position[]={14489.71,9.7766438,5884.1426};
+						angles[]={0.2443461,0,5.9329152};
 					};
 					side="West";
-					flags=4;
+					flags=6;
 					class Attributes
 					{
-						rank="CORPORAL";
-						description="Squad 2 Team 1 Leader";
+						rank="SERGEANT";
+						description="Squad Leader@Squad 2";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SWLW_DC15A";
+								firemode="SWLW_DC15A:Single";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC15A_Mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="SWLW_DC17";
+								class primaryMuzzleMag
+								{
+									name="SWLW_DC17_Mag";
+									ammoLeft=20;
+								};
+								class secondaryMuzzleMag
+								{
+									name="SWLW_smokeRed_mag";
+									ammoLeft=3;
+								};
+							};
+							class uniform
+							{
+								typeName="SWLB_clone_uniform";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="SWLB_clone_recon_officer_armor";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="SWLB_clone_backpack_predef_heavy";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SWLW_DC15A_Mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SWLW_DC17_Mag";
+										count=4;
+										ammoLeft=20;
+									};
+									class Item2
+									{
+										name="SWLW_beltGrenade_mag";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=3;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="SWLB_comlink";
+							headgear="SWLB_clone_P2_helmet";
+						};
 					};
-					id=6453;
-					type="JLTS_Clone_P2_sergeant";
+					id=10974;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33063,7 +33922,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14490.71,10.793959,5879.1426};
+						angles[]={0.21019,0,6.1558809};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="CORPORAL";
+						description="Squad 2 Medic";
+						isPlayable=1;
+					};
+					id=10975;
+					type="SWLB_clone_medic_base_P2";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ENH_unitTraits_medic";
+							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ENH_unitTraits_engineer";
+							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ENH_unitTrait_UAVHacker";
+							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ENH_unitTrait_explosiveSpecialist";
+							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=6;
 					};
 				};
 			};
@@ -33084,19 +34057,221 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+						position[]={14494.318,9.7743645,5883.7568};
+						angles[]={0.19996236,0,0.042638395};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="SERGEANT";
+						description="Co-Pilot";
+						isPlayable=1;
+					};
+					id=6459;
+					type="SWLB_clone_pilot_base_P2";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ENH_unitTraits_medic";
+							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ENH_unitTraits_engineer";
+							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ENH_unitTrait_UAVHacker";
+							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ENH_unitTrait_explosiveSpecialist";
+							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14494.073,9.410799,5885.499};
+						angles[]={0.19996236,0,0.042638395};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						description="Pilot@Medevac";
+						isPlayable=1;
+					};
+					id=6460;
+					type="SWLB_clone_pilot_base_P2";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ENH_unitTraits_medic";
+							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ENH_unitTraits_engineer";
+							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.94999999;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ENH_unitTrait_UAVHacker";
+							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ENH_unitTrait_explosiveSpecialist";
+							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
 						position[]={14494.499,10.161998,5882.1006};
-						angles[]={0.24435101,0,6.2791886};
+						angles[]={0.2443461,0,6.2791882};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="MedEvac Medic";
+						description="Medic";
 						isPlayable=1;
 					};
-					id=6450;
-					type="JLTS_Clone_P2_corporal";
+					id=10961;
+					type="SWLB_clone_medic_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33164,27 +34339,40 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						nAttributes=6;
 					};
 				};
-				class Item1
+				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14494.678,10.564981,5880.4814};
-						angles[]={0.24435101,0,6.2791886};
+						position[]={14494.678,10.564867,5880.4819};
+						angles[]={0.2443461,0,6.2791882};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="MedEvac Medic";
+						description="Medic";
 						isPlayable=1;
 					};
-					id=6451;
-					type="JLTS_Clone_P2_corporal";
+					id=10962;
+					type="SWLB_clone_medic_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33252,183 +34440,20 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14494.318,9.774457,5883.7563};
-						angles[]={0.19995819,0,0.042640556};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="SERGEANT";
-						description="MedEvac Co-Pilot";
-						isPlayable=1;
-					};
-					id=6459;
-					type="SWLB_clone_pilot_base_P2";
-					class CustomAttributes
-					{
-						class Attribute0
+						class Attribute5
 						{
-							property="ENH_unitTraits_medic";
-							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
 								{
-									singleType="BOOL";
-									value=1;
+									singleType="STRING";
+									value="";
 								};
 							};
 						};
-						class Attribute1
-						{
-							property="ENH_unitTraits_engineer";
-							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.97000003;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ENH_unitTrait_UAVHacker";
-							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="ENH_unitTrait_explosiveSpecialist";
-							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14494.073,9.4108915,5885.4985};
-						angles[]={0.19995819,0,0.042640556};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="LIEUTENANT";
-						description="MedEvac Pilot";
-						isPlayable=1;
-					};
-					id=6460;
-					type="SWLB_clone_pilot_base_P2";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ENH_unitTraits_medic";
-							expression="[_this, ['Medic', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ENH_unitTraits_engineer";
-							expression="[_this, ['Engineer', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.94999999;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ENH_unitTrait_UAVHacker";
-							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="ENH_unitTrait_explosiveSpecialist";
-							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						nAttributes=5;
+						nAttributes=6;
 					};
 				};
 			};
@@ -33449,15 +34474,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.316,9.4420252,5885.8174};
-						angles[]={0.19995819,0,0.042640556};
+						position[]={14496.316,9.4419327,5885.8179};
+						angles[]={0.19996236,0,0.042638395};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="Logistics Pilot";
+						description="Pilot@Logistics";
 						isPlayable=1;
 					};
 					id=6458;
@@ -33492,6 +34517,19 @@ class Mission
 						};
 						class Attribute2
 						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
 							property="pitch";
 							expression="_this setpitch _value;";
 							class Value
@@ -33503,7 +34541,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute3
+						class Attribute4
 						{
 							property="ENH_unitTrait_UAVHacker";
 							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
@@ -33516,7 +34554,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute4
+						class Attribute5
 						{
 							property="ENH_unitTrait_explosiveSpecialist";
 							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
@@ -33529,7 +34567,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						nAttributes=6;
 					};
 				};
 				class Item1
@@ -33537,20 +34575,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.646,9.8819714,5883.7158};
-						angles[]={0.19995819,0,0.042640556};
+						position[]={14496.646,9.8820496,5883.7158};
+						angles[]={0.19996236,0,0.042638395};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Logistics Engineer";
+						description="Engineer";
 						isPlayable=1;
 					};
 					id=6461;
 					type="SWLB_clone_engineer_base_P2";
-					atlOffset=-7.8201294e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33613,19 +34650,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.742,10.242455,5881.9575};
-						angles[]={0.19995819,0,0.042640556};
+						position[]={14496.742,10.242362,5881.958};
+						angles[]={0.19996236,0,0.042638395};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Logistics Demolition Expert";
+						description="Demolition Expert";
 						isPlayable=1;
 					};
-					id=6462;
-					type="JLTS_Clone_P2_EOD";
+					id=10963;
+					type="SWLB_clone_eod_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33693,7 +34730,20 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						nAttributes=6;
 					};
 				};
 			};
@@ -33715,14 +34765,14 @@ class Mission
 					class PositionInfo
 					{
 						position[]={14498.486,9.1319857,5886.1548};
-						angles[]={0.19995849,0,5.9954023};
+						angles[]={0.19996236,0,5.9953976};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="CAS Pilot";
+						description="Pilot@Close Air Support";
 						isPlayable=1;
 					};
 					id=6456;
@@ -33757,6 +34807,19 @@ class Mission
 						};
 						class Attribute2
 						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
 							property="pitch";
 							expression="_this setpitch _value;";
 							class Value
@@ -33768,7 +34831,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute3
+						class Attribute4
 						{
 							property="ENH_unitTrait_UAVHacker";
 							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
@@ -33781,7 +34844,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute4
+						class Attribute5
 						{
 							property="ENH_unitTrait_explosiveSpecialist";
 							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
@@ -33794,7 +34857,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						nAttributes=6;
 					};
 				};
 				class Item1
@@ -33802,15 +34865,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14498.847,9.4944611,5883.8394};
-						angles[]={0.19995849,0,5.9954023};
+						position[]={14498.847,9.4943686,5883.8398};
+						angles[]={0.19996236,0,5.9953976};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						description="CAS Pilot";
+						description="Pilot";
 						isPlayable=1;
 					};
 					id=6457;
@@ -33845,6 +34908,19 @@ class Mission
 						};
 						class Attribute2
 						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
 							property="pitch";
 							expression="_this setpitch _value;";
 							class Value
@@ -33856,7 +34932,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute3
+						class Attribute4
 						{
 							property="ENH_unitTrait_UAVHacker";
 							expression="[_this, ['UAVHacker', _value]] remoteExec ['setUnitTrait', _this]";
@@ -33869,7 +34945,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute4
+						class Attribute5
 						{
 							property="ENH_unitTrait_explosiveSpecialist";
 							expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
@@ -33882,7 +34958,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						nAttributes=6;
 					};
 				};
 			};
@@ -33904,18 +34980,18 @@ class Mission
 					class PositionInfo
 					{
 						position[]={14500.623,8.698657,5886.4878};
-						angles[]={0.073202357,0,6.1180367};
+						angles[]={0.073199101,0,6.118042};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
-						description="UAV and Intelligence";
+						description="UAV Operator@UAV and Intelligence";
 						isPlayable=1;
 					};
-					id=6463;
-					type="JLTS_Clone_P2_UAV_prowler";
+					id=10964;
+					type="SWLB_clone_base_P2";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33983,7 +35059,20 @@ class Mission
 								};
 							};
 						};
-						nAttributes=5;
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						nAttributes=6;
 					};
 				};
 			};
