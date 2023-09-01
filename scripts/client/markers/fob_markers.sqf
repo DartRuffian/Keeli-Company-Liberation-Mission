@@ -8,6 +8,8 @@ private _markers = [];
 private _markers_mobilespawns = [];
 
 while {true} do {
+    if (side player == east) exitWith {};
+
     if (count _markers != count GRLIB_all_fobs) then {
         {deleteMarkerLocal _x;} forEach _markers;
         _markers = [];
