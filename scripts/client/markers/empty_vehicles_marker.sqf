@@ -33,7 +33,7 @@ while { true } do {
         _vehmarkers = [];
 
         {
-            _marker = createMarkerLocal [ format [ "markedveh%1" ,_x], markers_reset ];
+            _marker = createMarkerLocal [ format [ "markedveh%1" ,_x], markers_reset, 6 ];
             _marker setMarkerColorLocal "ColorKhaki";
             _marker setMarkerTypeLocal "mil_dot";
             _marker setMarkerSizeLocal [ 0.75, 0.75 ];

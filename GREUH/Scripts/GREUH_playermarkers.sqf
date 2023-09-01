@@ -85,7 +85,7 @@ while { true } do {
 				private _nextplayer = _x;
 				private _marker = _nextplayer getVariable [ "spotmarker", "" ];
 				if ( _marker == "" ) then {
-					_marker = ( createMarkerLocal [ format [ "playermarker%1", (allUnits find _x) * (time % 1000) * (floor (random 100)) ], getpos _nextplayer ] );
+					_marker = ( createMarkerLocal [ format [ "playermarker%1", (allUnits find _x) * (time % 1000) * (floor (random 100)) ], getpos _nextplayer, 6 ] );
 					_marker_objs pushback [ _marker, _nextplayer ];
 					_nextplayer setVariable [ "spotmarker", _marker ];
 
@@ -112,7 +112,7 @@ while { true } do {
 				private _marker = _nextai getVariable [ "spotmarker", "" ];
 
 				if ( _marker == "" ) then {
-					_marker = ( createMarkerLocal [ format [ "squadaimarker%1", (allUnits find _x) * (time % 1000) * (floor (random 10000)) ], getpos _nextai ] );
+					_marker = ( createMarkerLocal [ format [ "squadaimarker%1", (allUnits find _x) * (time % 1000) * (floor (random 10000)) ], getpos _nextai, 6 ] );
 					_marker_objs pushback [ _marker, _nextai ];
 					_nextai setVariable [ "spotmarker", _marker ];
 					_marker setMarkerTypeLocal "mil_triangle";
@@ -127,7 +127,7 @@ while { true } do {
 				private _nextvehicle = _x;
 				private _marker = _nextvehicle getVariable [ "spotmarker", "" ];
 				if ( _marker == "" ) then {
-					_marker = ( createMarkerLocal [ format [ "vehiclemarker%1", (vehicles find _x) * (time % 1000) * (floor (random 10000)) ], getpos _nextvehicle ] );
+					_marker = ( createMarkerLocal [ format [ "vehiclemarker%1", (vehicles find _x) * (time % 1000) * (floor (random 10000)) ], getpos _nextvehicle, 6 ] );
 					_marker_objs pushback [ _marker, _nextvehicle ];
 					_nextvehicle setVariable [ "spotmarker", _marker ];
 					_marker setMarkerTypeLocal "mil_arrow2";
