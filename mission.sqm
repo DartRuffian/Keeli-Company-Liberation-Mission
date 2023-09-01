@@ -22,14 +22,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1454;
+		nextID=1471;
 	};
 	class Camera
 	{
 		pos[]={14499.16,12.141726,5898.7109};
-		dir[]={-0.38646612,-0.21906026,-0.8960017};
-		up[]={-0.086773105,0.97570539,-0.20118004};
-		aside[]={-0.9183026,-1.8451829e-007,0.39608163};
+		dir[]={-0.38643479,-0.21904248,-0.89592898};
+		up[]={-0.086752392,0.97571534,-0.20113091};
+		aside[]={-0.91822791,0,0.39605284};
 	};
 };
 binarizationWanted=0;
@@ -387,7 +387,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -30626,7 +30626,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14504.39,7.6947217,5899.043};
-			angle=6.193964;
+			angle=6.1939631;
 			class Attributes
 			{
 				condition="GRLIB_endgame == 1";
@@ -44550,7 +44550,7 @@ class Mission
 					};
 					id=10947;
 					type="BNA_KC_OPFOR_Unit_BXDroid";
-					atlOffset=4.7683716e-007;
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -44930,7 +44930,7 @@ class Mission
 					};
 					id=10949;
 					type="BNA_KC_OPFOR_Unit_BXDroid";
-					atlOffset=4.7683716e-007;
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
